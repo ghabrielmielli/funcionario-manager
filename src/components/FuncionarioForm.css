@@ -1,0 +1,50 @@
+@import "../App.css";
+
+input[type="text"],
+input[type="number"] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: auto;
+	display: block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 1.3rem;
+}
+
+label {
+	width: 80%;
+	padding: 12px 20px;
+	margin: auto;
+	display: block;
+	color: var(--texto-secundario);
+	font-size: 1.2rem;
+}
+
+.btn-cancelar,
+.btn-salvar {
+	width: 30%;
+	color: white;
+	padding: 14px 20px;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+
+	transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+}
+
+.btn-cancelar {
+	background-color: var(--destaque);
+	margin: 0 5% 0 17.5%;
+}
+.btn-salvar {
+	background-color: var(--fundo-secundario);
+	margin: 0 10% 0 0;
+}
+
+.btn-cancelar:hover {
+	background-color: #b15b2a;
+}
+.btn-salvar:hover {
+	background-color: #817c39;
+}

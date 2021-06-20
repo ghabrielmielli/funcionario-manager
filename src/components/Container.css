@@ -1,0 +1,13 @@
+@import "../App.css";
+
+.basic-container {
+	width: 90vw;
+
+	margin: 20px auto;
+	padding: 0.5rem 1rem 2rem 1rem;
+
+	background-color: var(--fundo-principal);
+	border: 2px solid var(--fundo-secundario);
+	border-radius: 10px;
+	box-shadow: 5px 3px 10px var(--texto-principal);
+}

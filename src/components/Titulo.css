@@ -1,0 +1,20 @@
+@import "../App.css";
+
+.titulo {
+	font-size: 3rem;
+	color: var(--destaque);
+	text-shadow: 0.05em 0.02em 0.03em var(--texto-secundario);
+}
+.descricao-titulo {
+	font-size: 1.6rem;
+	margin-top: -1.6rem;
+	color: var(--texto-secundario);
+}
+
+.alinhado-esquerda {
+	margin: 10px 0 0 10px;
+}
+
+.alinhado-centro {
+	text-align: center;
+}
